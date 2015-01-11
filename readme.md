@@ -1,4 +1,4 @@
-#bxSlider 4.1.2
+#bxSlider 4.1.2, with rtl support
 ##The fully-loaded, responsive jQuery content slider
 
 ###Why should I use this slider?
@@ -62,6 +62,12 @@ $(document).ready(function(){
 ##Configuration options
 
 ###General
+
+**direction**
+```
+default: 'ltr'
+options: 'ltr', 'rtl'
+```
 
 **mode**
 Type of transition between slides
